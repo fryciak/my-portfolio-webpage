@@ -4,8 +4,10 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+/* move active class for link in nav bar for each page once created */
+
 body {
-  margin-top:100px;
+  margin-top: 100px;
 }
 
 h1 {
@@ -54,10 +56,16 @@ p {
   color: rgba(39, 33, 66, 0.7);
 }
 
+.nav-link:hover {
+  color: var(--primary-color);
+  transition: all 100ms ease-in-out;
+}
+
+
+
 footer {
-    margin-top: 90px;
-    background: var(--secondary-color);
-   
+  margin-top: 90px;
+ 
 }
 
 footer .social-links a {
@@ -68,10 +76,17 @@ footer .social-links a {
   padding-top: 15px;
 }
 
-footer .social-links a:hover{
-    transform: scale(1.1);
-  cursor: pointer; 
+footer .social-links a:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  columns: var(--primary-color);
 }
+
+.social-media-link:hover {
+    color: var(--primary-color);
+    transition: all 100ms ease-in-out;
+}
+
 
 .logo-ac {
   max-height: 80px;
@@ -109,13 +124,13 @@ footer .social-links a:hover{
 }
 
 .project-title {
-    font-family: 'Playfair Display';
-font-style: normal;
-font-weight: 700;
-font-size: 60px;
-line-height: 85px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 85px;
 
-color: #000000;
+  color: #000000;
 }
 
 .about-paragraphs {
@@ -148,12 +163,16 @@ color: #000000;
   box-shadow: var(--box-shadow);
   color: #272142;
   background: var(--secondary-color);
-
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+}
+
+.primary-link:hover {
+    color: var(--primary-color);
+    transition: all 100ms ease-in-out;
 }
 
 #navbarNav {
