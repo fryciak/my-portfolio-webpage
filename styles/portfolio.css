@@ -61,11 +61,8 @@ p {
   transition: all 100ms ease-in-out;
 }
 
-
-
 footer {
   margin-top: 90px;
- 
 }
 
 footer .social-links a {
@@ -81,44 +78,51 @@ footer .social-links a:hover {
   cursor: pointer;
   columns: var(--primary-color);
 }
-.footer-about{
-    margin-top: 200px;
+.footer-about {
+  margin-top: 200px;
 }
 
-.inquiry-link a{
-    line-height: 90px;
-   background-color: var(--primary-color);
-   color: white;
+.inquiry-link a {
+  line-height: 90px;
+  background-color: var(--primary-color);
+  color: white;
 }
 
 .inquiry-link a:hover {
-    color: #000000;
+  color: #000000;
 }
 
 .about-page {
-    margin-top: 200px;
+  margin-top: 200px;
 }
 
 .info-about-me {
-    font-size: 18px;
-     font-family: "Poppins";
-     font-weight: 700;
+  font-size: 18px;
+  font-family: "Poppins";
+  font-weight: 700;
 }
 
 .social-media-link:hover {
-    color: var(--primary-color);
-    transition: all 100ms ease-in-out;
+  color: var(--primary-color);
+  transition: all 100ms ease-in-out;
 }
 
-.work-inquiry{
-    background: var(--secondary-color);
-    padding: 10px 100px;
-   border-radius: 20px;
+.work-inquiry {
+  background: var(--secondary-color);
+  padding: 10px 100px;
+  border-radius: 20px;
 }
 
 .logo-ac {
   max-height: 80px;
 }
+
+.about-img {
+  position: relative;
+  left: 100px;
+  width: 80%;
+}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -199,8 +203,8 @@ footer .social-links a:hover {
 }
 
 .primary-link:hover {
-    color: var(--primary-color);
-    transition: all 100ms ease-in-out;
+  color: var(--primary-color);
+  transition: all 100ms ease-in-out;
 }
 
 #navbarNav {
