@@ -96,6 +96,13 @@ footer .social-links a:hover {
   margin-top: 200px;
 }
 
+.language-icon {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: 30px;
+  padding-top: 15px;
+}
+
 .info-about-me {
   font-size: 18px;
   font-family: "Poppins";
