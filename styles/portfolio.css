@@ -56,6 +56,16 @@ p {
   color: rgba(39, 33, 66, 0.7);
 }
 
+small{
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: rgba(39, 33, 66, 0.7);
+  margin-left: 10px;
+}
+
 .nav-link:hover {
   color: var(--primary-color);
   transition: all 100ms ease-in-out;
@@ -67,6 +77,14 @@ footer {
 
 footer .social-links a {
   margin: 0 20px;
+  color: #272142;
+  text-decoration: none;
+  font-size: 30px;
+  padding-top: 15px;
+}
+
+.social-links {
+   margin: 0 20px;
   color: #272142;
   text-decoration: none;
   font-size: 30px;
@@ -155,7 +173,7 @@ footer .social-links a:hover {
   color: white;
 }
 
-.homepage {
+.homepage .about-page .work-page .contact-page {
   background: var(--secondary-color);
   text-align: center;
   padding: 50px 20px;
@@ -259,5 +277,11 @@ footer .social-links a:hover {
 @media (max-width: 576px) {
   h3 {
     font-size: 25px;
+  }
+}
+
+@media (max-width: 576px) {
+  .portfolio-img {
+    margin-top: 30px;
   }
 }
