@@ -39,6 +39,7 @@ h3 {
 
 h4 {
   margin-bottom: 60px;
+  margin-top: 60px;
   font-size: 40px;
   font-weight: 400;
   font-style: normal;
@@ -56,7 +57,7 @@ p {
   color: rgba(39, 33, 66, 0.7);
 }
 
-small{
+small {
   font-size: 20px;
   line-height: 30px;
   font-family: "Poppins", sans-serif;
@@ -84,7 +85,7 @@ footer .social-links a {
 }
 
 .social-links {
-   margin: 0 20px;
+  margin: 0 20px;
   color: #272142;
   text-decoration: none;
   font-size: 30px;
