@@ -4,7 +4,6 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-/* move active class for link in nav bar for each page once created */
 
 body {
   margin-top: 100px;
@@ -67,11 +66,6 @@ small {
   margin-left: 10px;
 }
 
-.nav-link:hover {
-  color: var(--primary-color);
-  transition: all 100ms ease-in-out;
-}
-
 footer {
   margin-top: 90px;
 }
@@ -84,6 +78,18 @@ footer .social-links a {
   padding-top: 15px;
 }
 
+footer .social-links a:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  columns: var(--primary-color);
+}
+
+.nav-link:hover {
+  color: var(--primary-color);
+  transition: all 100ms ease-in-out;
+}
+
+
 .social-links {
   margin: 0 20px;
   color: #272142;
@@ -92,11 +98,6 @@ footer .social-links a {
   padding-top: 15px;
 }
 
-footer .social-links a:hover {
-  transform: scale(1.1);
-  cursor: pointer;
-  columns: var(--primary-color);
-}
 .footer-about {
   margin-top: 200px;
 }
